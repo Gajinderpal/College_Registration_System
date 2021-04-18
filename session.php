@@ -1,0 +1,11 @@
+<?php
+session_start();
+If(isset($_SESSION['num']))
+{
+$_SESSION['num']=$_SESSION['num']+1;
+}
+else
+{
+	$_SESSION['num']=1;
+}
+?>
